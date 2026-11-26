@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://sumeer-ahmad.github.io/sitemap.xml
