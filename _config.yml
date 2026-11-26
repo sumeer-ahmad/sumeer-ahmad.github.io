@@ -1,7 +1,8 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-
+url: https://sumeer-ahmad.github.io
+baseurl:
 title: blank # the website title (if blank, full name will be used instead)
 first_name: You
 middle_name: R.
