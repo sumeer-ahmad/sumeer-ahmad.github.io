@@ -2,33 +2,30 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: PhD student, <a href='https://www.cs.ubc.ca/'>Computer Science</a>, <a href='https://www.ubc.ca/'>University of British Columbia</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Department of Computer Science</p>
+    <p>University of British Columbia</p>
+    <p>Vancouver, BC, Canada</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false # news section turned off
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a PhD student in Computer Science at UBC, advised by [Nguyen Phong Hoang](https://homepage.np-tokumei.net/).
+I study Internet censorship and network privacy through measurement.
+Right now I am measuring how Pakistan censors the Internet ([PKWatch](/projects/1_pkwatch/)) and how much privacy Encrypted Client Hello gives users in practice.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Before UBC, I did an MS at Stony Brook University with [Michalis Polychronakis](https://www3.cs.stonybrook.edu/~mikepo/), where I studied website fingerprinting in IPv6 ([PoPETs 2026](/publications/)).
+I hold a BS in Computer Science from [LUMS](https://lums.edu.pk/).

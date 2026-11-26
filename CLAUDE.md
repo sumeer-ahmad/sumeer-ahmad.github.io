@@ -2,6 +2,16 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## This site (read first)
+
+- This is Sumeer Ahmad's personal site (`sumeer-ahmad/sumeer-ahmad.github.io`), not the al-folio template repo. Content map and the edit, preview and publish workflow are in the top section of `README.md`.
+- Effective baseurl here is EMPTY (`url: https://sumeer-ahmad.github.io`, `baseurl:`). The `/al-folio` baseurl notes in AGENTS.md and below apply to the template repo only.
+- Demo content (blog posts, books, teaching, people, repositories, plugin catalog, demo assets) and all workflows except `deploy.yml` were removed on Nov 26 2026. The template's integration tests and visual tests assume demo content, so do not expect them to pass.
+- Nov 26 2026 revision per Sumeer: short bio, no news section (`_news/` removed, `announcements.enabled: false`), a `blog` page (cards with icons and filter tabs, `_pages/blog.html` rendering `_data/blog.yml`; only verified external writing, talks and mentions, summaries must match the source), and `/cv/` (`_pages/cv.html`, layout none, meta refresh) redirecting to `assets/pdf/Sumeer_Ahmad_CV.pdf`. The page is `.html` on purpose: as `.md`, kramdown mangles the raw HTML.
+- Local preview: `~/sumeer-website-preview/build.sh` and `serve.sh` (pinned ruby:3.3-bookworm container, tailnet only).
+- Content rules: no em or en dashes in site prose, no venue names for papers under double-blind review, no phone number. Numbers about the PoPETs 2026 paper come from the published abstract (94%, 56% over IPv4, 45% over IPv6).
+- Never commit or push for Sumeer. He reviews and pushes.
+
 @AGENTS.md
 
 `AGENTS.md` (imported above) is the **authoritative** agent entry point: change routing, the stop sign for gem-owned paths, the three silent failure modes, and the validated command set. Keep it short and ecosystem-neutral. Cross-repo architecture — the wrapper/tag/gem delegation table, feature gating, the v1 config contract, local overrides — lives in [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md); area-to-gem ownership lives in [`docs/BOUNDARIES.md`](docs/BOUNDARIES.md).

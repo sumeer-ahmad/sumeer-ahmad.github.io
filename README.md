@@ -1,3 +1,40 @@
+# sumeer-ahmad.github.io
+
+Personal academic website of Sumeer Ahmad, live at https://sumeer-ahmad.github.io.
+Built from the [al-folio](https://github.com/alshedivat/al-folio) template (v1.x, Jekyll). The original al-folio README follows below this section.
+
+## Where the content lives
+
+| Path | What it holds |
+| --- | --- |
+| `_config.yml` | Site name, description, URL (`url: https://sumeer-ahmad.github.io`, `baseurl:` empty), feature flags |
+| `_pages/about.md` | Home page: short bio, subtitle, photo settings, address. The news section is turned off. |
+| `_pages/{projects,publications}.md` | Page settings (titles, nav order). Demo pages were removed. |
+| `_pages/blog.html` | Blog page: card grid with filter tabs (Writing, Talks, In the news). Layout and styles live here. |
+| `_data/blog.yml` | Blog page entries: type, date, source, title, 2 to 3 line summary, link buttons. Add a new entry here; no HTML needed. |
+| `_pages/cv.html` | `/cv/` redirects straight to `assets/pdf/Sumeer_Ahmad_CV.pdf`. To update the CV, replace that PDF (keep the file name). |
+| `_projects/*.md` | One file per project. `category: current` or `past`, `importance` sets the order. |
+| `_bibliography/papers.bib` | Publications. `selected = {true}` shows a paper on the home page. |
+| `_data/socials.yml` | Email, Google Scholar, GitHub, LinkedIn and CV icons |
+| `_data/coauthors.yml`, `_data/venues.yml` | Coauthor links and venue badge colors for the publications list |
+| `assets/img/prof_pic.jpg` | Profile photo (800x800, metadata stripped) |
+| `.github/workflows/deploy.yml` | The only workflow kept. Builds the site on every push to `main` and publishes it to `gh-pages`. |
+
+## Edit, preview, publish
+
+1. Edit files on `main` (here on the server in `~/sumeer-website`, or in the GitHub web editor).
+2. Preview locally (optional): `~/sumeer-website-preview/build.sh` then `~/sumeer-website-preview/serve.sh`, and open http://100.82.12.71:4000/ on the tailnet. `serve.sh stop` stops the server. The build runs in a pinned `ruby:3.3-bookworm` container and never writes into this repo.
+3. Push to `main`. The **Deploy site** action rebuilds the site (about 2 to 5 minutes). Never edit the `gh-pages` branch by hand.
+
+## Notes
+
+- GitHub Pages serves the `gh-pages` branch (Settings, Pages).
+- Ruby in `deploy.yml` is pinned to `"3.3"`, not an exact patch release. Exact patches disappear from newer runners and break the build.
+- Do not list venues for papers that are under double-blind review.
+- The CV PDF is public. Keep the phone number out of it and keep it consistent with the site.
+
+---
+
 # al-folio
 
 <div align="center">

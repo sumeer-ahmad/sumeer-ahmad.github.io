@@ -1,0 +1,75 @@
+# Entries for the blog page (_pages/blog.html), newest first.
+# type: writing | talk | mention  (sets the icon and the filter tab)
+# links: first link is the main one (the title links to it too).
+#   icon: any Font Awesome class, e.g. fa-solid fa-file-pdf, fa-brands fa-youtube
+
+- type: writing
+  date: 2026-04-23
+  source: Internet Society Pulse blog
+  title: "More Space, Less Privacy? IP-based Website Fingerprinting in IPv6"
+  summary: >
+    A plain-language write-up of my 2025 Pulse fellowship study. An observer who only sees IP addresses
+    can tell which website you visit about 94% of the time when the site still relies on IPv4-only resources,
+    and about 45% of the time for sites that run fully over IPv6. What matters is how hosting providers deploy IPv6.
+  links:
+    - label: Read the post
+      url: https://pulse.internetsociety.org/en/blog/2026/04/more-space-less-privacy-ip-based-website-fingerprinting-in-ipv6/
+      icon: fa-solid fa-arrow-up-right-from-square
+
+- type: talk
+  date: 2025-12-09
+  source: Pulse Internet Measurement Forum, Barcelona
+  title: "More Space, Less Privacy? Measuring Effectiveness of IP-based Website Fingerprinting in IPv6"
+  summary: >
+    I presented our IPv6 website fingerprinting results in the privacy session of the Internet Society's
+    Pulse Internet Measurement Forum: the threat model, how fingerprinting accuracy differs between IPv4 and IPv6,
+    and why hosting choices drive the risk.
+  links:
+    - label: Video
+      url: https://youtu.be/KfFmfQPvTpY
+      icon: fa-brands fa-youtube
+    - label: Slides
+      url: https://pulse.internetsociety.org/documents/40/Sumeer_IPv6_fingerprinting.pdf
+      icon: fa-solid fa-file-pdf
+    - label: Event
+      url: https://pulse.internetsociety.org/en/events/pulse-internet-measurement-forum-spain/
+      icon: fa-solid fa-calendar-days
+
+- type: mention
+  date: 2026-07-01
+  source: CMU CyLab News
+  title: "CyLab researchers set to present their work at PETS 2026"
+  summary: >
+    Carnegie Mellon's CyLab featured our PoPETs 2026 paper, co-authored with Theophilus A. Benson,
+    among the CyLab papers presented at PETS 2026.
+  links:
+    - label: Read the article
+      url: https://www.cylab.cmu.edu/news/2026/07/01-pets-2026.html
+      icon: fa-solid fa-arrow-up-right-from-square
+
+- type: mention
+  date: 2025-07-22
+  source: Stony Brook University News
+  title: "Stony Brook PhD Student Wins Elite IPv6 Research Fellowship"
+  summary: >
+    Stony Brook covered my selection as one of three Internet Society Pulse IPv6 Research Fellows worldwide,
+    and my project on whether IPv6 makes website fingerprinting easier.
+  links:
+    - label: Read the article
+      url: https://news.stonybrook.edu/computer-science/stony-brook-phd-student-wins-elite-ipv6-research-fellowship/
+      icon: fa-solid fa-arrow-up-right-from-square
+
+- type: mention
+  date: 2025-06-06
+  source: Internet Society Pulse blog
+  title: "Announcing the 2025 Pulse IPv6 Research Fellows"
+  summary: >
+    The Internet Society named me one of its three 2025 Pulse IPv6 Research Fellows, announced on the
+    anniversary of World IPv6 Launch Day. The fellows page describes my project on IPv6 website fingerprinting.
+  links:
+    - label: Read the announcement
+      url: https://pulse.internetsociety.org/blog/announcing-the-2025-pulse-ipv6-research-fellows
+      icon: fa-solid fa-arrow-up-right-from-square
+    - label: Fellows page
+      url: https://www.internetsociety.org/fellowships/pulse-research/2025-fellows-and-mentors/
+      icon: fa-solid fa-users
