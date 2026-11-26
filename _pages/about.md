@@ -6,7 +6,7 @@ subtitle: PhD student, <a href='https://www.cs.ubc.ca/'>Computer Science</a>, <a
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: sumeer_ahmad.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Department of Computer Science</p>

@@ -17,7 +17,7 @@ Built from the [al-folio](https://github.com/alshedivat/al-folio) template (v1.x
 | `_bibliography/papers.bib` | Publications. `selected = {true}` shows a paper on the home page. |
 | `_data/socials.yml` | Email, Google Scholar, GitHub, LinkedIn and CV icons |
 | `_data/coauthors.yml`, `_data/venues.yml` | Coauthor links and venue badge colors for the publications list |
-| `assets/img/prof_pic.jpg` | Profile photo (800x800, metadata stripped) |
+| `assets/img/sumeer_ahmad.jpg` | Profile photo (1400x1400 so every responsive size is real, metadata stripped). Renamed from prof_pic.jpg so browsers that cached the template photo fetch the new one. |
 | `.github/workflows/deploy.yml` | The only workflow kept. Builds the site on every push to `main` and publishes it to `gh-pages`. |
 
 ## Edit, preview, publish
